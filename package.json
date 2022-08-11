@@ -6,7 +6,9 @@
   "type": "commonjs",
   "description": "",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
   },
   "dependencies": {
     "critters": "^0.0.16",
