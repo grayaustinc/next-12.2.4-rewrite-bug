@@ -6,5 +6,5 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 };
 
 export default createTestPage(
-  "Retrieved from 'pages/test/ssr/[slug]/index.ts'"
+  "Retrieved from 'pages/test/without/ssr/[slug]/index.ts'"
 );

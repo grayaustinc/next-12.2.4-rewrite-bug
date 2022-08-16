@@ -1,5 +1,5 @@
 import createTestPage from "../../../../templates/test.[slug]";
 
 export default createTestPage(
-  "Retrieved from 'pages/test/none-with-index/index.ts'"
+  "Retrieved from 'pages/test/with/none-with-index/index.ts'"
 );

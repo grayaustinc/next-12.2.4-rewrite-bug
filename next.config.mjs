@@ -15,7 +15,7 @@ const defaultConfig = {
         source: "/",
         destination: "/home/",
       },
-      //With Trailing Slash
+      //With Trailing Slash (Source)
       {
         source: "/test/with/none/",
         destination: "/test/with/none/1/",
@@ -32,7 +32,7 @@ const defaultConfig = {
         source: "/test/with/ssr/",
         destination: "/test/with/ssr/1/",
       },
-      //Without Trailing Slash
+      //Without Trailing Slash (Source)
       {
         source: "/test/without/none",
         destination: "/test/without/none/1",

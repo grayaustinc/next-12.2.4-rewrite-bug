@@ -10,5 +10,5 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 export default createTestPage(
-  "Retrieved from 'pages/test/ssg/[slug]/index.ts'"
+  "Retrieved from 'pages/test/with/ssg/[slug]/index.ts'"
 );

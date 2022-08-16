@@ -7,7 +7,9 @@ const DivLink: FunctionComponent<PropsWithChildren<{ href: string }>> = ({
 }) => {
   return (
     <div>
-      <Link href={href}>{children}</Link>
+      <Link href={href} prefetch={false}>
+        {children}
+      </Link>
     </div>
   );
 };
